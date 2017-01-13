@@ -3,9 +3,58 @@
  <head>
    <meta charset="utf-8">
    <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="css/founts.css">
-   <title>my_apple</title>
+
+   <title>Responsive</title>
  </head>
  <body>
+   <div class="contaner">
+    <h1>A Basic Responsive Grid  (Plus Handy CSS3 Media Query Reporter)</h1>
+    <div>
+      <h3>The Magic is in the Media Query</h3>
+      <p>With the advent of CSS3 Media Queries, we have the ability to create
+         CSS rules designed specifically for a variety of screen sizes. These
+         rules wait in the wing, only being called upon IF and WHEN the device
+         fits the parameters of the media query. As Andy Clarke has written, in
+         his excellent 320 and Up, these media queries make it possible to:
+         load assets and layout styles progressively and only as they’re needed
+         Thus, it becomes possible to produce a single "device agnostic, one
+         web boilerplate" for your designs.</p>
+    </div>
+    <div>
+      <h3>It's a Beautiful Thing</h3>
+      <p>In this short tutorial, I'll provide both a basic review (or
+        introduction) to the basic concepts of responsive design while building
+         a handy CSS3 Media Query Reporter which you may find handy in your
+          future design projects. (I know I have.) Then, using that reporter,
+          we will take a first step toward converting a fixed-width grid system
+          into a fluid and responsive grid system. We won't build the entire
+          grid today, but we'll gain the concepts which will prepare us
+          to do so.</p>
+      <h5>What we'll do here:</h5>
+      <ul>
+        <li>Start with a very basic grid.</li>
+        <li>Create a little CSS3 Media Query Reporter.</li>
+        <li>Make our grid fluid instead of fixed.</li>
+        <li>Add a media query to help the grid adjust to small screen
+          widths.</li>
+      </ul>
+      <p>This will equip us with concepts and tools to help us tackle the
+         bigger steps to come.</p>
+    </div>
+    <div>
+      <h3>A CSS3 Media Query Reporter</h3>
+      <p>One of the small challenges in building a responsive layout is deciding
+         when to have certain rules apply. For instance, at what point will
+         your site make the transition from a single narrow column for handheld
+         devices to a multi-column design? Will you have one big transition
+         (from one-column to many-column), or will you provide an intermediate
+         step or two along the way (one-column, two-column, 8-column,
+         and so on)? And if you want to supply intermediate steps -- WHEN will
+          they apply? At 480 pixels wide ... 768 ... 1024? One thing that can
+          be helpful in making these decisions is an on-screen media query
+           reporter, which can provide visual feedback as we cross each width
+           threshold.</p>
+    </div>
+   </div>
  </body>
  </html>

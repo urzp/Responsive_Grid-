@@ -21,8 +21,17 @@ h4{
 
 .section-1 div{
   padding:  10px;
-/* width: 33.33%; 
+/* width: 33.33%;
   float: left; */
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .section-1 div{
+    padding:  10px;
+    width: 33.33%;
+    float: left;
+  }
 
 }
 
